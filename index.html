@@ -1,0 +1,805 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;0,700;1,400&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+  <link rel="stylesheet" href="public/css/reset.css" />
+  <link rel="stylesheet" href="public/css/main.css" />
+  <link rel="stylesheet" href="public/css/responsive.css" />
+  <link rel="stylesheet" href="public/owlcarousel/assets/owl.carousel.min.css">
+  <link rel="stylesheet" href="public/owlcarousel/assets/owl.theme.default.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+    integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous" />
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
+    crossorigin="anonymous"></script>
+  <script src="
+  https://cdn.jsdelivr.net/npm/jquery@3.6.3/dist/jquery.min.js
+  "></script>
+  <script src="public/owlcarousel/owl.carousel.min.js"></script>
+  <script src="public/js/main.js"></script>
+
+  <title>Document</title>
+</head>
+
+<body>
+  <div id="site">
+    <div id="header-wp">
+      <div id="header-top" class="d-none d-sm-block">
+        <div id="wp-inner" class="container d-flex justify-content-between">
+          <div class="work-time"><i class="fa-solid fa-clock"></i><span>Thứ 2 - thứ 7: 8:00am - 20:00am</span></div>
+          <div class="email"><i class="fa-solid fa-envelope"></i><span>support@unitop.vn</span></div>
+          <div class="phone"><i class="fa-solid fa-phone"></i><span>0988859692</span></div>
+        </div>
+      </div>
+      <div id="header-body">
+        <div id="wp-inner" class="container d-flex justify-content-between">
+          <div class="logo">
+            <img src="public/image/logo.png" alt="">
+          </div>
+          <nav class="d-none d-lg-block">
+            <ul class="menu d-flex">
+              <li class="item-menu"><a href="">Trang chủ</a></li>
+              <li class="item-menu"><a href="">Giới thiệu</a></li>
+              <li class="item-menu"><a href="">Giày</a></li>
+              <li class="item-menu">
+                <a href="">Túi xách</a>
+                <ul class="sub-menu">
+                  <li class="item-menu"><a href="">Túi xách tay nữ</a></li>
+                  <li class="item-menu"> <a href="">Túi đeo chéo nữ</a></li>
+                  <li class="item-menu"> <a href="">Túi bản to</a></li>
+                  <li class="item-menu"><a href="">Túi đeo vai</a></li>
+                </ul>
+                <i class="fa-solid fa-chevron-down"></i>
+              </li>
+              <li class="item-menu"><a href="">Áo Thun</a></li>
+              <li class="item-menu"><a href="">Đồng hồ</a></li>
+              <li class="item-menu"><a href="">Blog</li>
+              <li class="item-menu"><a href="">Liên hệ</a></li>
+            </ul>
+          </nav>
+          <div class="header-body-right d-none d-lg-flex">
+            <div class="search"><i class="fa-solid fa-magnifying-glass"></i></div>
+            <div class="cart"><i class="fa-solid fa-cart-plus"></i>
+              <div class="cart-num">2</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="wp-content">
+      <div id="banner" class="d-none d-sm-block">
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+          <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+          </ol>
+          <div class="carousel-inner">
+            <!-- data-interval="3000" -->
+            <div class="carousel-item active">
+              <img src="public/image/libazz-fashion-sliderimage3.png" class="d-block w-100" alt="...">
+              <div class="infor-img">
+                <p class="sale-product">Giảm giá 30%</p>
+                <p class="name-product">Áo len hàn quốc</p>
+                <p class="title-product">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                  tempor incididunt ut labore
+                  et dolore magna aliqua. Quis</p>
+                <button class="button">Mua ngay</button>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="public/image/libazz-fashion-sliderimage3.png" class="d-block w-100" alt="...">
+              <div class="infor-img">
+                <p class="sale-product">Giảm giá 30%</p>
+                <p class="name-product">Áo len hàn quốc</p>
+                <p class="title-product">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                  tempor incididunt ut labore
+                  et dolore magna aliqua. Quis</p>
+                <button class="button">Mua ngay</button>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="infor-img">
+                <p class="sale-product">Giảm giá 30%</p>
+                <p class="name-product">Áo len hàn quốc</p>
+                <p class="title-product">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                  tempor incididunt ut labore
+                  et dolore magna aliqua. Quis</p>
+                <button class="button">Mua ngay</button>
+              </div>
+              <img src="public/image/libazz-fashion-sliderimage3.png" class="d-block w-100" alt="...">
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="support-wp">
+        <div id="wp-inner" class="container">
+
+          <div class="row">
+            <div class="item-support col-12 col-sm-12 col-md-4 col-lg-4">
+              <i class="fa-solid fa-shield-halved"></i>
+              <p>Đổi trả trong 30 ngày</p>
+            </div>
+
+            <div class="item-support col-12 col-sm-12 col-md-4 col-lg-4">
+              <i class="fa-solid fa-headphones"></i>
+              <p>Hỗ trợ 24/7 09888.59.692</p>
+            </div>
+
+            <div class="item-support col-12 col-sm-12 col-md-4 col-lg-4">
+              <i class="fa-solid fa-truck"></i>
+              <p>Miễn phí ship toàn quốc</p>
+            </div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="section" id="list-product-wp">
+        <div id="wp-inner" class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <div class="section-head">
+                <p class="title">Sản phẩm mới</p>
+                <p class="intro">Những sản phẩm là xu thế của thời trang 2019 được ưa chuộng</p>
+              </div>
+              <div class="section-detail">
+                <div class="row">
+                  <div class="product-item col-12 col-sm-6 col-12 col-sm-6 col-md-4 col-xl-3">
+                    <a class="product-img" href="">
+                      <img src="public/image/sp-4.png" class="img-hover" alt="">
+                    </a>
+                    <div class="infor">
+                      <div class="vote">
+                        <span class="start">
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star-half-stroke"></i>
+                        </span>
+                        <span class="comment">
+                          (8 nhận xét)
+                        </span>
+                      </div>
+                      <div class="product-name">
+                        <a href="">
+                          Túi xách hiệu JAKA Nhật Bản
+                        </a>
+                      </div>
+                      <span class="product-price">
+                        1.200.000đ
+                      </span>
+                    </div>
+                  </div>
+                  <div class="product-item col-12 col-sm-6 col-12 col-sm-6 col-md-4 col-xl-3">
+                    <a class="product-img" href="">
+                      <img src="public/image/sp-3.png" class="img-hover" alt="">
+                    </a>
+                    <div class="infor">
+                      <div class="vote">
+                        <span class="start">
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star-half-stroke"></i>
+                        </span>
+                        <span class="comment">
+                          (8 nhận xét)
+                        </span>
+                      </div>
+                      <div class="product-name">
+                        <a href="">
+                          Túi xách hiệu JAKA Nhật Bản
+                        </a>
+                      </div>
+                      <span class="product-price">
+                        1.200.000đ
+                      </span>
+                    </div>
+                  </div>
+                  <div class="product-item col-12 col-sm-6 col-md-4 col-xl-3">
+                    <a class="product-img" href=""><img src="public/image/sp-5.png" alt=""></a>
+                    <div class="infor">
+                      <div class="vote">
+                        <span class="start">
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star-half-stroke"></i>
+                        </span>
+                        <span class="comment">
+                          (8 nhận xét)
+                        </span>
+                      </div>
+                      <div class="product-name">
+                        <a href="">
+                          Túi xách hiệu JAKA Nhật Bản
+                        </a>
+                      </div>
+                      <span class="product-price">
+                        1.200.000đ
+                      </span>
+                    </div>
+                  </div>
+                  <div class="product-item col-12 col-sm-6 col-md-4 col-xl-3">
+                    <a class="product-img" href=""><img src="public/image/sp-2.png" alt=""></a>
+                    <div class="infor">
+                      <div class="vote">
+                        <span class="start">
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star-half-stroke"></i>
+                        </span>
+                        <span class="comment">
+                          (8 nhận xét)
+                        </span>
+                      </div>
+                      <div class="product-name">
+                        <a href="">
+                          Túi xách hiệu JAKA Nhật Bản
+                        </a>
+                      </div>
+                      <span class="product-price">
+                        1.200.000đ
+                      </span>
+                    </div>
+                  </div>
+                  <div class="product-item col-12 col-sm-6 col-md-4 col-xl-3">
+                    <a class="product-img" href=""><img src="public/image/sp-4.png" alt=""></a>
+                    <div class="infor">
+                      <div class="vote">
+                        <span class="start">
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star-half-stroke"></i>
+                        </span>
+                        <span class="comment">
+                          (8 nhận xét)
+                        </span>
+                      </div>
+                      <div class="product-name">
+                        <a href="">
+                          Túi xách hiệu JAKA Nhật Bản
+                        </a>
+                      </div>
+                      <span class="product-price">
+                        1.200.000đ
+                      </span>
+                    </div>
+                  </div>
+                  <div class="product-item col-12 col-sm-6 col-md-4 col-xl-3">
+                    <a class="product-img" href=""><img src="public/image/sp-3.png" alt=""></a>
+                    <div class="infor">
+                      <div class="vote">
+                        <span class="start">
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star-half-stroke"></i>
+                        </span>
+                        <span class="comment">
+                          (8 nhận xét)
+                        </span>
+                      </div>
+                      <div class="product-name">
+                        <a href="">
+                          Túi xách hiệu JAKA Nhật Bản
+                        </a>
+                      </div>
+                      <span class="product-price">
+                        1.200.000đ
+                      </span>
+                    </div>
+                  </div>
+                  <div class="product-item col-12 col-sm-6 col-md-4 col-xl-3">
+                    <a class="product-img" href=""><img src="public/image/sp-5.png" alt=""></a>
+                    <div class="infor">
+                      <div class="vote">
+                        <span class="start">
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star-half-stroke"></i>
+                        </span>
+                        <span class="comment">
+                          (8 nhận xét)
+                        </span>
+                      </div>
+                      <div class="product-name">
+                        <a href="">
+                          Túi xách hiệu JAKA Nhật Bản
+                        </a>
+                      </div>
+                      <span class="product-price">
+                        1.200.000đ
+                      </span>
+                    </div>
+                  </div>
+                  <div class="product-item col-12 col-sm-6 col-md-4 col-xl-3">
+                    <a class="product-img" href=""><img src="public/image/sp-2.png" alt=""></a>
+                    <div class="infor">
+                      <div class="vote">
+                        <span class="start">
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star-half-stroke"></i>
+                        </span>
+                        <span class="comment">
+                          (8 nhận xét)
+                        </span>
+                      </div>
+                      <div class="product-name">
+                        <a href="">
+                          Túi xách hiệu JAKA Nhật Bản
+                        </a>
+                      </div>
+                      <span class="product-price">
+                        1.200.000đ
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="section d-none d-sm-block" id="list-category-wp">
+        <div id="wp-inner" class="container">
+          <div class="row no-gutters">
+            <div class="col-md-12">
+              <div class="row no-gutters">
+                <div class="box-cat-left col-md-6">
+                  <div class="category">
+                    <img src="public/image/category-1.png" alt="">
+                    <div class="read-more">
+                      <div class="category-name">
+                        Giày
+                      </div>
+                      <button>Xem thêm</button>
+                    </div>
+                    <div class="mask-content">
+                    </div>
+                  </div>
+                </div>
+                <div class="box-cat-right col-md-6">
+                  <div class="row no-gutters">
+                    <div class="category col-md-12">
+                      <img src="public/image/category-2.png" alt="">
+                      <div class="read-more">
+                        <div class="category-name">
+                          Đồng hồ
+                        </div>
+                        <button>Xem thêm</button>
+                      </div>
+                      <div class="mask-content">
+
+                      </div>
+                    </div>
+                    <div class="category col-md-12">
+                      <img src="public/image/category-3.png" alt="">
+                      <div class="read-more">
+                        <div class="category-name">
+                          Quần áo
+                        </div>
+                        <button>Xem thêm</button>
+                      </div>
+                      <div class="mask-content">
+
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="section" id="list-product-feature-wp">
+        <div id="wp-inner" class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <div class="section-head">
+                <p class="title">Bán chạy</p>
+                <p class="intro">Bộ sưu tập những sản phẩm bán chạy nhất hệ thống, bây giờ là của bạn</p>
+              </div>
+              <div class="section-detail">
+                <div class="owl-carousel owl-theme">
+                  <div class="item">
+                    <a class="product-img" href=""><img src="public/image/sp-2.png" alt=""></a>
+                    <div class="infor">
+                      <div class="vote">
+                        <span class="start">
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star-half-stroke"></i>
+                        </span>
+                        <span class="comment">
+                          (8 nhận xét)
+                        </span>
+                      </div>
+                      <div class="product-name">
+                        <a href="">
+                          Túi xách hiệu JAKA Nhật Bản
+                        </a>
+                      </div>
+                      <span class="product-price">
+                        1.200.000đ
+                      </span>
+                    </div>
+                  </div>
+                  <div class="item">
+                    <a class="product-img" href=""><img src="public/image/sp-3.png" alt=""></a>
+                    <div class="infor">
+                      <div class="vote">
+                        <span class="start">
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star-half-stroke"></i>
+                        </span>
+                        <span class="comment">
+                          (8 nhận xét)
+                        </span>
+                      </div>
+                      <div class="product-name">
+                        <a href="">
+                          Túi xách hiệu JAKA Nhật Bản
+                        </a>
+                      </div>
+                      <span class="product-price">
+                        1.200.000đ
+                      </span>
+                    </div>
+                  </div>
+                  <div class="item">
+                    <a class="product-img" href=""><img src="public/image/sp-4.png" alt=""></a>
+                    <div class="infor">
+                      <div class="vote">
+                        <span class="start">
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star-half-stroke"></i>
+                        </span>
+                        <span class="comment">
+                          (8 nhận xét)
+                        </span>
+                      </div>
+                      <div class="product-name">
+                        <a href="">
+                          Túi xách hiệu JAKA Nhật Bản
+                        </a>
+                      </div>
+                      <span class="product-price">
+                        1.200.000đ
+                      </span>
+                    </div>
+                  </div>
+                  <div class="item">
+                    <a class="product-img" href=""><img src="public/image/sp-5.png" alt=""></a>
+                    <div class="infor">
+                      <div class="vote">
+                        <span class="start">
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star-half-stroke"></i>
+                        </span>
+                        <span class="comment">
+                          (8 nhận xét)
+                        </span>
+                      </div>
+                      <div class="product-name">
+                        <a href="">
+                          Túi xách hiệu JAKA Nhật Bản
+                        </a>
+                      </div>
+                      <span class="product-price">
+                        1.200.000đ
+                      </span>
+                    </div>
+                  </div>
+                  <div class="item">
+                    <a class="product-img" href=""><img src="public/image/sp-2.png" alt=""></a>
+                    <div class="infor">
+                      <div class="vote">
+                        <span class="start">
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star-half-stroke"></i>
+                        </span>
+                        <span class="comment">
+                          (8 nhận xét)
+                        </span>
+                      </div>
+                      <div class="product-name">
+                        <a href="">
+                          Túi xách hiệu JAKA Nhật Bản
+                        </a>
+                      </div>
+                      <span class="product-price">
+                        1.200.000đ
+                      </span>
+                    </div>
+                  </div>
+                  <div class="item">
+                    <a class="product-img" href=""><img src="public/image/sp-3.png" alt=""></a>
+                    <div class="infor">
+                      <div class="vote">
+                        <span class="start">
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star-half-stroke"></i>
+                        </span>
+                        <span class="comment">
+                          (8 nhận xét)
+                        </span>
+                      </div>
+                      <div class="product-name">
+                        <a href="">
+                          Túi xách hiệu JAKA Nhật Bản
+                        </a>
+                      </div>
+                      <span class="product-price">
+                        1.200.000đ
+                      </span>
+                    </div>
+                  </div>
+                  <div class="item">
+                    <a class="product-img" href=""><img src="public/image/sp-4.png" alt=""></a>
+                    <div class="infor">
+                      <div class="vote">
+                        <span class="start">
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star-half-stroke"></i>
+                        </span>
+                        <span class="comment">
+                          (8 nhận xét)
+                        </span>
+                      </div>
+                      <div class="product-name">
+                        <a href="">
+                          Túi xách hiệu JAKA Nhật Bản
+                        </a>
+                      </div>
+                      <span class="product-price">
+                        1.200.000đ
+                      </span>
+                    </div>
+                  </div>
+                  <div class="item">
+                    <a class="product-img" href=""><img src="public/image/sp-5.png" alt=""></a>
+                    <div class="infor">
+                      <div class="vote">
+                        <span class="start">
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star-half-stroke"></i>
+                        </span>
+                        <span class="comment">
+                          (8 nhận xét)
+                        </span>
+                      </div>
+                      <div class="product-name">
+                        <a href="">
+                          Túi xách hiệu JAKA Nhật Bản
+                        </a>
+                      </div>
+                      <span class="product-price">
+                        1.200.000đ
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="section" id="list-post-wp">
+        <div id="wp-inner" class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <div class="section-head">
+                <p class="title">Chia sẻ</p>
+                <p class="intro">Những bài viết mới về thời trang, bạn có thể xem ngay bay giờ</p>
+              </div>
+              <div class="section-detail">
+                <div class="row">
+                  <div class="post-item col-12 col-sm-6 col-12 col-sm-6 col-md-4 col-xl-4">
+                    <a class="product-img" href="">
+                      <img src="public/image/post-1.png" class="img-hover" alt="">
+                    </a>
+                    <div class="infor">
+                      <span class="post-category">Thời trang</span>
+                      <div class="post-title">
+                        <a href="">
+                          5 Mẹo cơ bản để phối đồ
+                        </a>
+                      </div>
+                      <span class="date">
+                        Jun 10,2022
+                      </span>
+                      <p class="post-content">Tips and tricks that most people wouldn't highlight when colors.</p>
+                    </div>
+                  </div>
+                  <div class="post-item col-12 col-sm-6 col-12 col-sm-6 col-md-4 col-xl-4">
+                    <a class="product-img" href="">
+                      <img src="public/image/post-2.png" class="img-hover" alt="">
+                    </a>
+                    <div class="infor">
+                      <span class="post-category">Thời trang</span>
+                      <div class="post-title">
+                        <a href="">
+                          5 Mẹo cơ bản để phối đồ
+                        </a>
+                      </div>
+                      <span class="date">
+                        Jun 10,2022
+                      </span>
+                      <p class="post-content">Tips and tricks that most people wouldn't highlight when colors.</p>
+                    </div>
+                  </div>
+                  <div class="post-item col-12 col-sm-6 col-12 col-sm-6 col-md-4 col-xl-4">
+                    <a class="product-img" href=""><img src="public/image/post-3.png" alt=""></a>
+                    <div class="infor">
+                      <span class="post-category">Thời trang</span>
+                      <div class="post-title">
+                        <a href="">
+                          5 Mẹo cơ bản để phối đồ
+                        </a>
+                      </div>
+                      <span class="date">
+                        Jun 10,2022
+                      </span>
+                      <p class="post-content">Tips and tricks that most people wouldn't highlight when colors.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="section" id="read-more-wp">
+        <div id="wp-inner" class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <div class="section-head">
+                <button class="read-more">Xem thêm</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="footer-wp">
+      <div id="footer-head">
+        <div id="wp-inner" class="container">
+          <div class="row">
+            <div class="footer-item col-md-3">
+              <div class="section-head">
+                <h6 class="link-footer">Địa chỉ</h6>
+              </div>
+              <div class="section-body">
+                <p><i class="fa-solid fa-location-dot"></i> Tòa nhà N01T5 Ngoại giao Đoàn,
+                  Bắc Từ Liêm, Hà Nội</p>
+                <p><i class="fa-solid fa-phone-flip"></i> 09888.59.692</p>
+                <p><i class="fa-solid fa-envelope"></i> support@unitop.vn</p>
+              </div>
+            </div>
+            <div class="footer-item col-md-3">
+              <div class="section-head">
+                <h6 class="link-footer">Giới thiệu</h6>
+              </div>
+              <div class="section-body">
+                <a href="">Về chúng tôi</a>
+                <a href="">Cách đặt hàng</a>
+                <a href="">Kiểm tra đơn hàng
+                </a>
+                <a href=""> Kiểm tra đơn hàng
+                </a>
+              </div>
+            </div>
+            <div class="footer-item col-md-3">
+              <div class="section-head">
+                <h6 class="link-footer">Danh mục</h6>
+              </div>
+              <div class="section-body">
+                <a href="">Giày thể thao</a>
+                <a href="">Váy</a>
+                <a href="">Kính mắt</a>
+                <a href="">Túi xách</a>
+              </div>
+            </div>
+            <div class="footer-item col-md-3">
+              <div class="section-head">
+                <h6 class="link-footer">Social</h6>
+              </div>
+              <div class="section-body">
+                <a href=""><i class="fa-brands fa-facebook-f"></i> Facebook</a>
+                <a href=""><i class="fa-brands fa-youtube"></i> Youtube</a>
+                <a href=""><i class="fa-brands fa-twitter"></i> Twiter</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="footer-end">
+        <div id="wp-inner" class="container">
+          <div class="row">
+            <div class="copy-right col-md-12">
+              <p><i class="fa-solid fa-copyright"></i> 2019 - 2025 UNITOP ACADEMY - UNITOP.VN</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="wp-respon-menu" class="absolute">
+      <nav>
+        <ul class="respon-menu">
+          <a href=""><i id="icon-menu-responsive" class="fas fa-bars"></i></a>
+          <li class="item-menu"><a href="">Trang chủ</a></li>
+          <li class="item-menu"><a href="">Giới thiệu</a></li>
+          <li class="item-menu"><a href="">Giày</a></li>
+          <li class="item-menu">
+            <a href="">Túi xách</a>
+            <i class="fa-solid fa-chevron-down"></i>
+            <ul class="sub-menu">
+              <li class="item-menu"> <a href="">Túi xách tay nữ</a></li>
+              <li class="item-menu"> <a href="">Túi đeo chéo nữ</a></li>
+              <li class="item-menu"> <a href="">Túi bản to</a></li>
+              <li class="item-menu"> <a href="">Túi đeo vai</a></li>
+            </ul>
+          </li>
+          <li class="item-menu"><a href="">Áo Thun</a></li>
+          <li class="item-menu"><a href="">Đồng hồ</a></li>
+          <li class="item-menu"><a href="">Blog</a></li>
+          <li class="item-menu"><a href="">Liên hệ</a></li>
+        </ul>
+      </nav>
+    </div>
+    <div id="mask-content"></div>
+  </div>
+</body>
+
+</html>
